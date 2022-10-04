@@ -1,14 +1,13 @@
-body{
-	background: #CCCCC;
+.pagina1{
+	display: inline-block;
+	margin: 50px 0;
+	padding: 30px 20px;
+}
 
-}
-h1{
-	text- align: center;
-	text- transform: uppercase;
-	color: ;
+form label, form  {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 20px;
+	color: black;
 
-}
-#banner{
-	widht: 50px;
-	height: 50px;
-}
+}	
