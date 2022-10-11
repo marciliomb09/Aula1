@@ -1,13 +1,14 @@
-.pagina1{
-	display: inline-block;
-	margin: 50px 0;
-	padding: 30px 20px;
+main p{
+	background: darkgrey;
 }
-
-form label, form  {
-	display: block;
-	font-size: 20px;
-	margin: 0 0 20px;
-	color: black;
-
-}	
+ main h1{background: dimgray;
+ }
+ #logo{
+ 	width: 15%;
+ 	opacity: 1.0;
+ 	box-shadow: 10px 10px 5px grey;
+ }
+ principal{
+ 	width: 15%;
+ 	opacity: 1.0;
+ 	box-shadow:10px 10px 5px grey;
