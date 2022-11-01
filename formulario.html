@@ -3,31 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Formularios</title>
-	<link rel="stylesheet" href="formulario.css">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="form.css">
 
 </head>
 <body>
-	 
-<header>
-
-	<mai>
+	<main>
 		<form>
+			<label for="email">Email</label>
+			<input type="email" id="email" class="input-padrao" required
+			placeholder="seuemail@dominio.com">
 
-			<label for="nomesobrenome"> Nome e Sobrenome</label>
-			<input type="text"id="nomesobrenome"
-
-			<label for="telefone"> Telefone </label>
-			<input type="text" id="telefone">
-
-			<label for="email"> Email </label>
-			<input type="text" id="email">
-
-			<input type="submit" value="Enviar formulario">
+			<label for="telefone">Telefone</label>
+			<input type="telefone" id="telefone" class="input-padrao" required
+			placeholder="(xx)xxxx-xxxx">
 
 
-		</form>
+			<input type="submit" value="Enviar Formulario" class="enviar">
 
+			<input type="submit" value="Girar" class="girar">
+
+	</form>
 
 </body>
 </html>
